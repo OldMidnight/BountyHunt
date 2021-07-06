@@ -1,0 +1,10 @@
+Flask
+Flask-Cors
+flask-SQLAlchemy
+psycopg2-binary
+pytest
+Flask-Migrate
+Flask-Script
+Flask-JWT-Extended
+sqlathanor
+stripe

@@ -1,0 +1,9 @@
+*.log
+*.pyc
+.env
+API.egg-info/
+.vscode/
+.pytest_cache/
+.pylintrc
+*.egg-info/
+dist/
