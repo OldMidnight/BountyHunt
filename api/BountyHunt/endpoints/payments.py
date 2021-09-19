@@ -11,7 +11,7 @@ def create_payments_intent():
   create_payments_intent creates a payment intent that will be used in the frontend to complete a stripe transaction.
   """
   amount = request.get_json()['amount']
-  # Convert amount float into string with necessary trailing zeros.
+  # Convert amount float into string with necessary trailing zeros
   amount = str(amount).split('.')
   if (len(amount) == 2 and len(amount[1]) == 1):
     amount[1] = amount[1] + '0'
