@@ -4,7 +4,7 @@ from flask import Flask
 from flask_cors import CORS
 from BountyHunt.endpoints import bounty, auth, payments, git
 from BountyHunt.extensions import jwt
-from BountyHunt.models import db
+from .models import db
 
 def create_app():
   app = Flask(__name__)
